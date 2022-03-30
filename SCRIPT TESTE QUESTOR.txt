@@ -1,4 +1,5 @@
---8.1) Gere o script de criação das Tabelas
+--8.1) Gere o script de criação das Tabelas 
+-- Foi criado no banco de dados PostGres por isso utilizei o SERIAL para auto incremento.
 CREATE TABLE CLIENTE (
 CODIGOCLIENTE SERIAL,
 NOME VARCHAR(255),
